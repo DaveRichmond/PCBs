@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Images)(type KiCad)(uri M:/development/PCBs/Images.pretty)(options "")(descr ""))
+  (lib (name M68K-Nucleo)(type KiCad)(uri ${KIPRJMOD}/M68K-Nucleo.pretty)(options "")(descr ""))
+)
