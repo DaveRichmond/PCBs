@@ -1,0 +1,3 @@
+[submodule "olimex-kicad"]
+	path = olimex-kicad
+	url = https://github.com/OLIMEX/KiCAD
