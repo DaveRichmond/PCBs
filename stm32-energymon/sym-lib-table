@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name stm32-energymon)(type Legacy)(uri ${KIPRJMOD}/stm32-energymon.lib)(options "")(descr ""))
+)

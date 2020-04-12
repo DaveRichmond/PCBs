@@ -1,0 +1,273 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L stm32-energymon:blackpill U1
+U 1 1 5E924050
+P 4300 2950
+F 0 "U1" H 4300 3925 50  0000 C CNN
+F 1 "blackpill" H 4300 3834 50  0000 C CNN
+F 2 "stm32-energymon:blackpill" H 4300 2000 50  0001 C CNN
+F 3 "" H 4300 2000 50  0001 C CNN
+	1    4300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E925521
+P 3800 2200
+F 0 "#PWR0101" H 3800 1950 50  0001 C CNN
+F 1 "GND" V 3805 2072 50  0000 R CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E925B68
+P 5000 2200
+F 0 "#PWR0102" H 5000 1950 50  0001 C CNN
+F 1 "GND" V 5005 2072 50  0000 R CNN
+F 2 "" H 5000 2200 50  0001 C CNN
+F 3 "" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2200 3850 2200
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5E925F61
+P 3800 2300
+F 0 "#PWR0103" H 3800 2150 50  0001 C CNN
+F 1 "+3.3V" V 3815 2428 50  0000 L CNN
+F 2 "" H 3800 2300 50  0001 C CNN
+F 3 "" H 3800 2300 50  0001 C CNN
+	1    3800 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 2300 3850 2300
+Text Label 4950 2300 2    50   ~ 0
+SCL
+Text Label 4950 2400 2    50   ~ 0
+SDA
+Wire Wire Line
+	4750 2300 4950 2300
+Wire Wire Line
+	4750 2400 4950 2400
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5E92A82C
+P 6700 2500
+F 0 "J3" H 6780 2492 50  0000 L CNN
+F 1 "Conn_01x06" H 6780 2401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 6700 2500 50  0001 C CNN
+F 3 "~" H 6700 2500 50  0001 C CNN
+	1    6700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5E92AE82
+P 6250 2300
+F 0 "#PWR0104" H 6250 2150 50  0001 C CNN
+F 1 "+3.3V" V 6265 2428 50  0000 L CNN
+F 2 "" H 6250 2300 50  0001 C CNN
+F 3 "" H 6250 2300 50  0001 C CNN
+	1    6250 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E92BA22
+P 6250 2400
+F 0 "#PWR0105" H 6250 2150 50  0001 C CNN
+F 1 "GND" V 6255 2272 50  0000 R CNN
+F 2 "" H 6250 2400 50  0001 C CNN
+F 3 "" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	0    1    1    0   
+$EndComp
+Text Label 6250 2500 0    50   ~ 0
+SCL
+Text Label 6250 2600 0    50   ~ 0
+SDA
+Wire Wire Line
+	6250 2500 6500 2500
+Wire Wire Line
+	6250 2600 6500 2600
+Text Notes 6100 2150 0    50   ~ 0
+INA219 Current Sensor
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E92CD0A
+P 6600 3450
+F 0 "J2" H 6680 3442 50  0000 L CNN
+F 1 "Conn_01x02" H 6680 3351 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6600 3450 50  0001 C CNN
+F 3 "~" H 6600 3450 50  0001 C CNN
+	1    6600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E92D4B3
+P 6300 3600
+F 0 "#PWR0106" H 6300 3350 50  0001 C CNN
+F 1 "GND" H 6305 3427 50  0000 C CNN
+F 2 "" H 6300 3600 50  0001 C CNN
+F 3 "" H 6300 3600 50  0001 C CNN
+	1    6300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3600 6300 3550
+Wire Wire Line
+	6300 3450 6400 3450
+Wire Wire Line
+	6400 3550 6300 3550
+Connection ~ 6300 3550
+Wire Wire Line
+	6300 3550 6300 3450
+Text Label 5050 3400 2    50   ~ 0
+MOSI
+Text Label 5050 3300 2    50   ~ 0
+MISO
+Text Label 5050 3200 2    50   ~ 0
+SCK
+Text Label 5050 3100 2    50   ~ 0
+LCD_CS
+Text Label 3450 2900 0    50   ~ 0
+LCD_DC
+Text Label 3450 3200 0    50   ~ 0
+LCD_BL
+$Comp
+L Connector_Generic:Conn_01x14 J1
+U 1 1 5E92E377
+P 2100 2800
+F 0 "J1" H 2180 2792 50  0000 L CNN
+F 1 "Conn_01x14" H 2180 2701 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 2100 2800 50  0001 C CNN
+F 3 "~" H 2100 2800 50  0001 C CNN
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+Text Label 1550 2200 0    50   ~ 0
+T_IRQ
+Text Label 1550 2300 0    50   ~ 0
+MISO
+Text Label 1550 2400 0    50   ~ 0
+MOSI
+Text Label 1550 2500 0    50   ~ 0
+T_CS
+Text Label 1550 2600 0    50   ~ 0
+SCK
+Text Label 1550 2700 0    50   ~ 0
+MISO
+Text Label 1550 2800 0    50   ~ 0
+LCD_BL
+Text Label 1550 2900 0    50   ~ 0
+SCK
+Text Label 1550 3000 0    50   ~ 0
+MOSI
+Text Label 1550 3100 0    50   ~ 0
+LCD_DC
+Text Label 1550 3200 0    50   ~ 0
+LCD_RST
+Text Label 1550 3300 0    50   ~ 0
+LCD_CS
+$Comp
+L power:GND #PWR0107
+U 1 1 5E930526
+P 1550 3400
+F 0 "#PWR0107" H 1550 3150 50  0001 C CNN
+F 1 "GND" V 1555 3272 50  0000 R CNN
+F 2 "" H 1550 3400 50  0001 C CNN
+F 3 "" H 1550 3400 50  0001 C CNN
+	1    1550 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5E93062F
+P 1550 3500
+F 0 "#PWR0108" H 1550 3350 50  0001 C CNN
+F 1 "+3.3V" V 1565 3628 50  0000 L CNN
+F 2 "" H 1550 3500 50  0001 C CNN
+F 3 "" H 1550 3500 50  0001 C CNN
+	1    1550 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 2200 5000 2200
+Wire Wire Line
+	6250 2300 6500 2300
+Wire Wire Line
+	6250 2400 6500 2400
+Wire Wire Line
+	1550 3500 1900 3500
+Wire Wire Line
+	1550 3400 1900 3400
+Wire Wire Line
+	1550 3300 1900 3300
+Wire Wire Line
+	1550 3200 1900 3200
+Wire Wire Line
+	1550 3100 1900 3100
+Wire Wire Line
+	1550 3000 1900 3000
+Wire Wire Line
+	1550 2900 1900 2900
+Wire Wire Line
+	1550 2800 1900 2800
+Wire Wire Line
+	1550 2700 1900 2700
+Wire Wire Line
+	1550 2600 1900 2600
+Wire Wire Line
+	1550 2500 1900 2500
+Wire Wire Line
+	1550 2400 1900 2400
+Wire Wire Line
+	1550 2300 1900 2300
+Wire Wire Line
+	1550 2200 1900 2200
+Text Label 3450 2600 0    50   ~ 0
+T_IRQ
+Text Label 3450 2700 0    50   ~ 0
+T_CS
+Text Label 3450 2800 0    50   ~ 0
+LCD_RST
+Wire Wire Line
+	3450 2600 3850 2600
+Wire Wire Line
+	3450 2700 3850 2700
+Wire Wire Line
+	3450 2800 3850 2800
+Wire Wire Line
+	3450 2900 3850 2900
+Wire Wire Line
+	3450 3200 3850 3200
+Wire Wire Line
+	5050 3100 4750 3100
+Wire Wire Line
+	5050 3200 4750 3200
+Wire Wire Line
+	5050 3300 4750 3300
+Wire Wire Line
+	5050 3400 4750 3400
+$EndSCHEMATC
