@@ -270,4 +270,61 @@ Wire Wire Line
 	5050 3300 4750 3300
 Wire Wire Line
 	5050 3400 4750 3400
+$Comp
+L Connector_Generic:Conn_01x07 J4
+U 1 1 5E948F9A
+P 2100 4150
+F 0 "J4" H 2180 4192 50  0000 L CNN
+F 1 "Conn_01x07" H 2180 4101 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 2100 4150 50  0001 C CNN
+F 3 "~" H 2100 4150 50  0001 C CNN
+	1    2100 4150
+	1    0    0    -1  
+$EndComp
+Text Label 1600 4050 0    50   ~ 0
+SCK
+Text Label 1600 4150 0    50   ~ 0
+MOSI
+Text Label 1600 4250 0    50   ~ 0
+LCD_RST
+Text Label 1600 4350 0    50   ~ 0
+LCD_DC
+Text Label 1600 4450 0    50   ~ 0
+LCD_BL
+$Comp
+L power:GND #PWR0109
+U 1 1 5E94A771
+P 1600 3850
+F 0 "#PWR0109" H 1600 3600 50  0001 C CNN
+F 1 "GND" V 1605 3722 50  0000 R CNN
+F 2 "" H 1600 3850 50  0001 C CNN
+F 3 "" H 1600 3850 50  0001 C CNN
+	1    1600 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 5E94A9A8
+P 1600 3950
+F 0 "#PWR0110" H 1600 3800 50  0001 C CNN
+F 1 "+3.3V" V 1615 4078 50  0000 L CNN
+F 2 "" H 1600 3950 50  0001 C CNN
+F 3 "" H 1600 3950 50  0001 C CNN
+	1    1600 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 3850 1900 3850
+Wire Wire Line
+	1600 3950 1900 3950
+Wire Wire Line
+	1600 4050 1900 4050
+Wire Wire Line
+	1600 4150 1900 4150
+Wire Wire Line
+	1600 4250 1900 4250
+Wire Wire Line
+	1600 4350 1900 4350
+Wire Wire Line
+	1600 4450 1900 4450
 $EndSCHEMATC
