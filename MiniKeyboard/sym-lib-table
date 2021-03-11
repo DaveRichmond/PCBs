@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name YAAJ_BluePill)(type Legacy)(uri D:/development/PCBs/STM32-PillBoards/Symbols/YAAJ_BluePill.lib)(options "")(descr ""))
+  (lib (name MiniKeyboard)(type Legacy)(uri ${KIPRJMOD}/MiniKeyboard.lib)(options "")(descr ""))
+  (lib (name MiniKeyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/MiniKeyboard-rescue.lib)(options "")(descr ""))
+)

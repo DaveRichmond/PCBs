@@ -1,3 +1,6 @@
 [submodule "olimex-kicad"]
 	path = olimex-kicad
 	url = https://github.com/OLIMEX/KiCAD
+[submodule "STM32-PillBoards"]
+	path = STM32-PillBoards
+	url = https://github.com/yet-another-average-joe/Kicad-STM32
