@@ -1,4 +1,4 @@
-19080928548729994
+19095467589209157
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56209,6 +56209,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MiniKeyboard
+F411CE-Blackpill
+
+
+0
+40
+40
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -59695,6 +59702,62 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PIllBoards
+YAAJ_BlackPill_1
+BlackPill module with pin headers and sockets. No SWD breakout
+module BlackPill Black Pill header socket
+0
+34
+34
+PIllBoards
+YAAJ_BlackPill_2
+BlackPill module with pin headers / sockets. No SWD breakout
+module BlackPill Black Pill header
+0
+34
+34
+PIllBoards
+YAAJ_BlackPill_SWD_1
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
+PIllBoards
+YAAJ_BlackPill_SWD_2
+BlackPill module with pin headers / sockets. SWD broken out to PCB.
+module BlackPill Black Pill header SWD breakout
+0
+38
+38
+PIllBoards
+YAAJ_BluePill_1
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+PIllBoards
+YAAJ_BluePill_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+40
+40
+PIllBoards
+YAAJ_BluePill_SWD_1
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+44
+44
+PIllBoards
+YAAJ_BluePill_SWD_2
+Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.
+module BlluePill Blue Pill header SWD breakout
+0
+44
+44
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
