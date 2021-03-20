@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name PIllBoards)(type KiCad)(uri D:/development/PCBs/STM32-PillBoards/Footprints)(options "")(descr ""))
+  (lib (name PIllBoards)(type KiCad)(uri D:/development/PCBs/libs/STM32-PillBoards/Footprints)(options "")(descr ""))
   (lib (name MiniKeyboard)(type KiCad)(uri ${KIPRJMOD}/MiniKeyboard.pretty)(options "")(descr ""))
 )
