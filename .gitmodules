@@ -1,6 +1,9 @@
 [submodule "olimex-kicad"]
-	path = olimex-kicad
+	path = libs/olimex-kicad
 	url = https://github.com/OLIMEX/KiCAD
 [submodule "STM32-PillBoards"]
-	path = STM32-PillBoards
+	path = libs/STM32-PillBoards
 	url = https://github.com/yet-another-average-joe/Kicad-STM32
+[submodule "libs/esp32_mini"]
+	path = libs/esp32_mini
+	url = https://github.com/r0oland/ESP32_mini_KiCad_Library
