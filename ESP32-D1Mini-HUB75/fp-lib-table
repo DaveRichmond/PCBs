@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ESP32_mini)(type KiCad)(uri D:/development/PCBs/libs/esp32_mini/ESP32_mini.pretty)(options "")(descr ""))
+  (lib (name ESP32-D1Mini-HUB75)(type KiCad)(uri D:/development/PCBs/ESP32-D1Mini-HUB75/libs)(options "")(descr ""))
+  (lib (name Images)(type KiCad)(uri D:/development/PCBs/Images.pretty)(options "")(descr ""))
+)
