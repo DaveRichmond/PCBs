@@ -2410,12 +2410,8 @@ Wire Wire Line
 Connection ~ 3300 7250
 Wire Wire Line
 	3300 7250 3100 7250
-Connection ~ 3500 7250
 Wire Wire Line
 	3500 7250 3300 7250
-Connection ~ 3700 7250
-Wire Wire Line
-	3700 7250 3500 7250
 Wire Wire Line
 	1900 6850 2100 6850
 Connection ~ 1900 6850
@@ -2595,4 +2591,18 @@ Wire Wire Line
 	1050 5250 800  5250
 NoConn ~ 1050 4750
 NoConn ~ 1050 4850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6090BA37
+P 4100 7250
+F 0 "#PWR?" H 4100 7100 50  0001 C CNN
+F 1 "+3V3" V 4115 7378 50  0000 L CNN
+F 2 "" H 4100 7250 50  0001 C CNN
+F 3 "" H 4100 7250 50  0001 C CNN
+	1    4100 7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 7250 3900 7250
+Connection ~ 3900 7250
 $EndSCHEMATC
