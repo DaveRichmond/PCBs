@@ -694,7 +694,7 @@ U 1 1 601F7B0C
 P 5050 3800
 F 0 "JP1" H 5050 4064 50  0000 C CNN
 F 1 "Jumper" H 5050 3973 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5050 3800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5050 3800 50  0001 C CNN
 F 3 "~" H 5050 3800 50  0001 C CNN
 	1    5050 3800
 	1    0    0    -1  
@@ -705,7 +705,7 @@ U 1 1 601F84D2
 P 5050 4000
 F 0 "JP2" H 5050 4264 50  0000 C CNN
 F 1 "Jumper" H 5050 4173 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5050 4000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5050 4000 50  0001 C CNN
 F 3 "~" H 5050 4000 50  0001 C CNN
 	1    5050 4000
 	1    0    0    -1  
@@ -1297,4 +1297,10 @@ Wire Wire Line
 Connection ~ 1750 5100
 Wire Wire Line
 	1750 4750 1750 4800
+Text Notes 4700 5500 0    50   ~ 0
+Note:\nPins 10 & 14 on the PS/2 side are listed as "reserved"\nin the pinout documentation available online\nfor this style of drive. We'll leave them disconnected\nwith jumpers to allow them to be connected if needed
+Text Notes 7000 4950 0    50   ~ 0
+Note:\nWe'll provide jumpers on all pins on the \ngotek side in order to allow any issues to\nbe disconnected and/or worked around \nmore easily
+Text Notes 1200 2000 0    50   ~ 0
+Note:\nThese functions don't really have an equivalent on the \npc standard floppy connector. Therefore we'll provide\nboth pullup and pulldown resistors to be populated\nas needed by the use. Also pin headers will break out\nthese signals
 $EndSCHEMATC
