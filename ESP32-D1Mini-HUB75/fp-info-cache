@@ -1,4 +1,4 @@
-19084161060143636
+19087358848523872
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50715,6 +50715,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ESP32-D1Mini-HUB75
+KF8500-2P
+
+
+0
+2
+2
+ESP32-D1Mini-HUB75
 pinout
 
 
@@ -51680,6 +51687,13 @@ heatsink
 0
 2
 1
+Images
+amber
+
+
+0
+0
+0
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
