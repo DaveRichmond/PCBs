@@ -7,3 +7,6 @@
 [submodule "libs/esp32_mini"]
 	path = libs/esp32_mini
 	url = https://github.com/r0oland/ESP32_mini_KiCad_Library
+[submodule "libs/Panelization.pretty"]
+	path = libs/Panelization.pretty
+	url = https://github.com/madworm/Panelization.pretty
