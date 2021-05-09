@@ -10,3 +10,6 @@
 [submodule "libs/Panelization.pretty"]
 	path = libs/Panelization.pretty
 	url = https://github.com/madworm/Panelization.pretty
+[submodule ".\\libs\\thirtythreeforty"]
+	path = .\\libs\\thirtythreeforty
+	url = https://github.com/thirtythreeforty/3340_kicad
