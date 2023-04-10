@@ -2722,6 +2722,16 @@ Wire Notes Line
 	3700 7550 3700 9050
 Wire Notes Line
 	2550 7550 3700 7550
+Wire Notes Line
+	8650 650  8650 4300
+Wire Notes Line
+	8650 4300 13150 4300
+Wire Notes Line
+	13150 4300 13150 650 
+Wire Notes Line
+	13150 650  8650 650 
+Wire Notes Line
+	8650 2400 13150 2400
 Wire Bus Line
 	6150 1000 6150 6500
 Wire Bus Line
@@ -2734,4 +2744,8 @@ Wire Bus Line
 	2150 1000 2150 7650
 Wire Bus Line
 	3900 1000 3900 6550
+Text Notes 8700 800  0    50   ~ 0
+FPGA->SCSI Buffers
+Text Notes 8750 2650 0    50   ~ 0
+SCSI->FPGA (bus snoop)
 $EndSCHEMATC
