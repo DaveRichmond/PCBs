@@ -8,3 +8,6 @@ fp-lib-table
 *-cache.lib
 
 *.zip
+
+# fabrication toolkit addon for kicad
+**/production/
